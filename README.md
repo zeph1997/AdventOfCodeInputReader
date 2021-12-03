@@ -9,9 +9,9 @@
   * [Getting started](#getting-started)
   * [Using AdventOfCodeInputReader](#using-adventofcodeinputreader)
   * [Methods](#methods)
-    * [get_input()](#get_input())
-    * [get_input_by_day()](#get_input_by_day())
-    * [get_input_by_year_and_day](#get_input_by_year_and_day)
+    * [get_input()](#get_input)
+    * [get_input_by_day()](#get_input_by_day)
+    * [get_input_by_year_and_day()](#get_input_by_year_and_day)
       
 ## Getting Started
 
