@@ -3,20 +3,20 @@ setup(
   name = 'AdventOfCodeInputReader',         
   packages = ['AdventOfCodeInputReader'],   
   version = '0.0.1',      
-  license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Package to retrieve input for Advent Of Code',   # Give a short description about your library
-  author = 'Zeph Ng',                   # Type in your name
-  author_email = 'zephngdev@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/zeph1997/AdventOfCodeInputReader',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/zeph1997/AdventOfCodeInputReader/archive/refs/tags/v0.0.1.tar.gz',    # I explain this later on
-  keywords = ['reader', 'advent', 'of', 'code', 'api'],   # Keywords that define your package best
+  license='MIT',        
+  description = 'Package to retrieve input for Advent Of Code',   
+  author = 'Zeph Ng',                   
+  author_email = 'zephngdev@gmail.com',      
+  url = 'https://github.com/zeph1997/AdventOfCodeInputReader',   
+  download_url = 'https://github.com/zeph1997/AdventOfCodeInputReader/archive/refs/tags/v0.0.1.tar.gz',    
+  keywords = ['reader', 'advent', 'of', 'code', 'api'],   
   install_requires=['requests'],
   classifiers=[
-    'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
-    'Intended Audience :: Developers',      # Define that your audience are developers
+    'Development Status :: 3 - Alpha',      
+    'Intended Audience :: Developers',      
     'Topic :: Software Development :: Build Tools',
-    'License :: OSI Approved :: MIT License',   # Again, pick a license
-    'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
+    'License :: OSI Approved :: MIT License',   
+    'Programming Language :: Python :: 3',      
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
