@@ -1,9 +1,8 @@
-from distutils.core import setup
-from io import open
+from setuptools import setup
+import pathlib
 
-def read(filename):
-    with open(filename, encoding='utf-8') as file:
-        return file.read()
+HERE = pathlib.Path(__file__).parent
+README = (HERE / "README.md").read_text()
 
 setup(
   name = 'AdventOfCodeInputReader',         
@@ -11,7 +10,7 @@ setup(
   version = '0.0.2',      
   license='MIT',        
   description = 'Package to retrieve input for Advent Of Code',   
-  long_description=read('README.md'),
+  long_description=README,
   long_description_content_type="text/markdown",
   author = 'Zeph Ng',                   
   author_email = 'zephngdev@gmail.com',      
