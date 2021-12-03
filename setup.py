@@ -8,7 +8,7 @@ setup(
   author = 'Zeph Ng',                   # Type in your name
   author_email = 'zephngdev@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/zeph1997/AdventOfCodeInputReader',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/zeph1997/AdventOfCodeInputReader/archive/refs/tags/v0.0.1.tar.gz',    # I explain this later on
   keywords = ['reader', 'advent', 'of', 'code', 'api'],   # Keywords that define your package best
   install_requires=['requests'],
   classifiers=[
