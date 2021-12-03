@@ -47,20 +47,24 @@ class AdventOfCodeInputReader:
             raise Exception("No Year specified. Please specify Year at initialization.")
         try:
             response = requests.get(f'https://adventofcode.com/{self.year}/day/{day}/input', headers={"Cookie":"session="+self.session_id})
-            return response.content.decode("utf-8").split("\n")[:-1]
+            if response.status_code == 200:
+                return response.content.decode("utf-8").split("\n")[:-1]
+            else:
+                raise Exception("Incorrect Day, Year, or Session ID. Please ensure that Day, Year, and Session ID are correct.")
         except Exception as e:
             logger.error(f"{str(e)}\n\n{''.join(traceback.format_tb(e.__traceback__))}")
             raise e
 
-    def get_input_by_day_and_year(self,day,year):
+    def get_input_by_year_and_day(self,year,day):
         """
-        The day and year arguments provided will override the day and year provided at inialisation (if any) for this method only.
+        The year and day arguments provided will override the year and day provided at inialisation (if any) for this method only.
         """
-        if not self.year:
-            raise Exception("No Year specified. Please specify Year at initialization.")
         try:
             response = requests.get(f'https://adventofcode.com/{year}/day/{day}/input', headers={"Cookie":"session="+self.session_id})
-            return response.content.decode("utf-8").split("\n")[:-1]
+            if response.status_code == 200:
+                return response.content.decode("utf-8").split("\n")[:-1]
+            else:
+                raise Exception("Incorrect Day, Year, or Session ID. Please ensure that Day, Year, and Session ID are correct.")
         except Exception as e:
             logger.error(f"{str(e)}\n\n{''.join(traceback.format_tb(e.__traceback__))}")
             raise e
