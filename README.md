@@ -4,6 +4,15 @@
 
 <p align="center">A python package to get the input for Advent Of Code challenges as a list</p>
 
+## Contents
+
+  * [Getting started](#getting-started)
+  * [Using AdventOfCodeInputReader](#using-adventofcodeinputreader)
+  * [Methods](#methods)
+    * [get_input()](#get_input())
+    * [get_input_by_day()](#get_input_by_day())
+    * [get_input_by_year_and_day](#get_input_by_year_and_day)
+      
 ## Getting Started
 
 * Installation using pip (Python Package Index):
