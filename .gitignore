@@ -1,3 +1,8 @@
 
 *.gz
 MANIFEST
+AdventOfCodeInputReader.egg-info/top_level.txt
+AdventOfCodeInputReader.egg-info/requires.txt
+AdventOfCodeInputReader.egg-info/PKG-INFO
+AdventOfCodeInputReader.egg-info/dependency_links.txt
+AdventOfCodeInputReader.egg-info/SOURCES.txt
