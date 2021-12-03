@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 setup(
   name = 'AdventOfCodeInputReader',         
   packages = ['AdventOfCodeInputReader'],   
-  version = '0.0.2',      
+  version = '0.0.3',      
   license='MIT',        
   description = 'Package to retrieve input for Advent Of Code',   
   long_description=README,
@@ -15,7 +15,7 @@ setup(
   author = 'Zeph Ng',                   
   author_email = 'zephngdev@gmail.com',      
   url = 'https://github.com/zeph1997/AdventOfCodeInputReader',   
-  download_url = 'https://github.com/zeph1997/AdventOfCodeInputReader/archive/refs/tags/v0.0.2.tar.gz',    
+  download_url = 'https://github.com/zeph1997/AdventOfCodeInputReader/archive/refs/tags/v0.0.3.tar.gz',    
   keywords = ['reader', 'advent', 'of', 'code', 'api'],   
   install_requires=['requests'],
   classifiers=[
