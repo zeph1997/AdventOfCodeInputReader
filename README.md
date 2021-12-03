@@ -2,7 +2,7 @@
 
 # <p align="center">AdventOfCodeInputReader</p>
 
-<p align="center">A python package to get the input for Advent Of Code challenges as a list.</p>
+<p align="center">A python package to get the input for Advent Of Code challenges as a list</p>
 
 ## Getting Started
 
